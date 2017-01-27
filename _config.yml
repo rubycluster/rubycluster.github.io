@@ -1,0 +1,17 @@
+gems:
+  - jekyll-seo-tag
+
+repository: rubycluster/rubycluster.github.io
+title: Ruby Cluster
+show_downloads: false
+sass:
+  sass_dir: assets/css
+url: rubycluster.com
+twitter:
+  username: rubycluster
+author:
+  twitter: rubycluster
+social:
+  name: Vlad Alive
+  links:
+    - https://twitter.com/rubycluster
