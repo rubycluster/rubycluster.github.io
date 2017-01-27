@@ -1,0 +1,103 @@
+---
+---
+
+@import "_lib.css.sass"
+
+@include Layout_Reset
+@include Layout_Helpers
+
+body
+  background: #fff url('/assets/images/debut_light.png')
+  color: #333
+  font:
+    family: 'Arial', sans-serif
+    size: 24px
+  line-height: 1.5
+
+  @media (min-width: 768px)
+    font-size: 20px
+
+  @media (min-width: 1024px)
+    font-size: 16px
+
+//section.container
+  position: relative
+  left: 50%
+  margin: 0 0 0 -510px
+  width: 1020px
+  min-height: 100%
+
+header
+  padding: 1rem 0
+  font-family: 'Cuprum', 'Arial', sans-serif
+  background: #500
+  .logo
+    text-shadow: #000 0.125rem 0.125rem 0.125rem
+    font-size: 280%
+    a
+      color: #f66
+      text-decoration: none
+  .tagline
+    font-size: 100%
+    color: #f99
+
+footer
+  background: #500
+  padding: 1rem 0
+
+section.main
+  padding: 1rem 0
+
+a
+  color: #f33
+  text-decoration: none
+p, ul
+  margin-bottom: 1rem
+h1, h2, h3, h4, h5, h6
+  display: table
+  margin: 1rem 0
+  padding: 0.125rem 0.25rem
+  background: #900
+  color: #fff
+  text-shadow: #333 1px 2px 2px
+  border-radius: 0.25rem
+h1
+  font-size: 140%
+h2
+  font-size: 120%
+h3
+  font-size: 100%
+  font-weight: bold
+h4
+  font-size: 100%
+  background: #666
+  font-weight: bold
+ul, ol
+  margin-bottom: 1rem
+  padding-left: 1.5rem
+ul
+  li
+    list-style-type: disc
+ol
+  li
+    list-style-type: decimal
+blockquote
+  padding: 0.5rem 0.5rem 0.25rem
+  border-left: 0.5rem solid #eee
+  color: #666
+  font-style: italic
+
+section.footer-nav
+
+  ul
+    display: flex
+    flex-direction: row
+    margin: 0
+    padding: 0
+
+    li
+      flex: auto 0
+      list-style: none
+      a
+        display: inline-block
+        padding: 0.25rem 0.25rem
